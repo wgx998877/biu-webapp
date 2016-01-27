@@ -1,0 +1,74 @@
+.bar-tab{
+	height: 2.4rem;
+}
+.tab-item{
+	height: 2.4rem;
+}
+.bar-tab .tab-item .icon{
+	width: 1rem;
+	height: 1rem;
+	top:0.05rem;
+}
+.detail-tab-cart{
+}
+.detail-tab-addcart{
+	padding: 0rem 4.5rem;
+    background-color: #ea4a36;
+    color:#ffffff !important;
+    font-size: 0.8rem;
+}
+.detail-tab-index{
+}
+
+.detail-cal{
+    position: absolute;
+    bottom: 0rem;
+    width:100%;
+    color:white;
+    background-color: rgba(128, 128, 128, 0.85);
+}
+.detail-head{
+	background-color: #ffffff;
+}
+.detail-head-img img{
+	width: 100%;
+	height: 100%;
+}
+.detail-head-img-plus{
+	display: none;
+	background-color: rgba(173, 57, 226, 0.54);
+	position: relative;
+	bottom: 2rem;
+	width: 100%;
+	height: 2rem;
+}
+.detail-head-title{
+	padding-left: 1rem;
+	font-weight: 600;
+}
+.detail-head-price{
+	font-size: 0.7rem;
+	line-height: 2;
+	padding-left: 1rem;
+}
+.detail-head-price-real-c{
+	color: #ea4a36;
+	font-size: 1.3rem;
+}
+.detail-campaign{
+	background-color: #ffffff;
+	margin-top: 0.05rem;
+	padding: 0.5rem 1rem;
+	margin-bottom: 0.3rem;
+	font-size: 0.6rem;
+}
+.detail-campaign-item{
+	padding-bottom: 0.2rem;
+}
+.detail-info{
+	width: 100%;
+}
+.detail-info img{
+	width: 100%;
+	height:100%;
+}

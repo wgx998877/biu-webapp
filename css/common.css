@@ -1,0 +1,71 @@
+body{
+    font-family:"Microsoft YaHei";
+}
+.bar-header{
+	background-color: #ffffff;
+}
+.bar-tab{
+	background-color: #ffffff;
+}
+.content{
+    background-color: #eee;
+}
+.active{
+    color: #f6383a !important;
+    border-color: #f6383a !important;
+}
+.label-danger{    
+    background-color: #ea4a36;
+    display: inline-block;
+    padding: 3px 0.45rem;
+    font-size: 0.5rem;
+    line-height: 14px;
+    color: #ffffff;
+    vertical-align: baseline;
+    white-space: nowrap;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    cursor: default;
+}
+.label-danger-empty{    
+    border:1px solid #ea4a36;
+    display: inline-block;
+    padding: 1px 0.45rem;
+    font-size: 0.5rem;
+    line-height: 14px;
+    color: #ea4a36;
+    vertical-align: baseline;
+    white-space: nowrap;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    cursor: default;
+}
+
+.icon-big{
+    position: fixed;
+    z-index: 20;
+    padding: 0rem .1rem;
+    margin-left: -1.0rem;
+    bottom: 0.8rem;
+    width: 3.0rem;
+    height: 3.0rem;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: .2px;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(../images/cart.png);
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+a:active { 
+color:#ea4a36 !important; 
+text-decoration:none; 
+} 
