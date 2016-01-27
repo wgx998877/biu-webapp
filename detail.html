@@ -1,53 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link href="weui.min.css" rel="stylesheet">
     <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.1/css/sm.min.css">
-	  <script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
-	  <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.1/js/sm.min.js' charset='utf-8'></script>
-    <link href="app.css" rel="stylesheet">
-    <script src="app.js" charset='utf-8'></script>
+    <link href="detail.css" rel="stylesheet">
 </head>
 <body>
   <div class="page-group">
       <!-- 你的html代码 -->
       <div class="page">
-
-        <div class="bar bar-header">
-            <div class="searchbar">
-              <a class="searchbar-cancel">取消</a>
-              <div class="search-input">
-                <label class="icon icon-search" for="search"></label>
-                <input type="search" id="search" placeholder="输入关键字...">
-              </div>
+          <div class="content">
+            <div class="detail-head">
+              <img src="http://placehold.it/375x220"
             </div>
+            <div class="detail-comment">
+            </div>
+            <div class="detail-body">
+            <div class="buttons-tab">
+    <a href="#tab1" class="tab-link active button">图文详情</a>
+    <a href="#tab2" class="tab-link button">保税区FAQ</a>
+  </div>
+  <div class="content-block">
+    <div class="tabs">
+      <div id="tab1" class="tab active">
+        <div class="content-block">
+          <p>This is tab 1 content</p>
+        </div>
+      </div>
+      <div id="tab2" class="tab">
+        <div class="content-block">
+          <p>This is tab 2 content</p>
+        </div>
+      </div>
+    </div>
+  </div>
           </div>
-          <nav class="bar bar-tab">
-              <a class="tab-item external active" href="#">
-                  <span class="icon icon-home"></span>
-                  <span class="tab-label">首页</span>
-              </a>
-              <a class="tab-item external" href="#">
-                  <span class="icon icon-app"></span>
-                  <span class="tab-label">品牌</span>
-              </a>
-              <a class="tab-item external" href="#">
-                  <span class="icon icon-cart"></span>
-                  <span class="tab-label">购物车</span>
-              </a>
-              <a class="tab-item external" href="#">
-                  <span class="icon icon-me"></span>
-                  <span class="tab-label">我</span>
-              </a>
-          </nav>
-          <div class="content" style="margin-top:40px">
-              <!-- 这里是页面内容区 -->
+
+            <div class="detail-cal">
+                <div class="row">
+                  <div class="col-20"> 
+                  购物车
+          </div>
+                  <div class="col-60">
+                <span>
+                  加入购物车
+                </span>
+          </div>
+                  <div class="col-20">
+                <a class="button button-fill button-danger" style="height:1.6rem;">首页
+                </a>
+          </div>
+            </div>
           </div>
       </div>
   </div>
-
-    <script>
-        $.init();
-    </script>
+  </div>
+    <script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.1/js/sm.min.js' charset='utf-8'></script>
+    <script src="detail.js" charset='utf-8'></script>
 </body>
 </html>

@@ -15,13 +15,12 @@
       <div id="page-search " class="page">
 
         <div class="bar bar-header">
-            <div class="searchbar">
-              <a class="searchbar-cancel">取消</a>
               <div class="search-input">
                 <label class="icon icon-search" for="search"></label>
-                <input type="search" id="search" placeholder="搜索商品名">
+                <input type="search" id="search" placeholder="搜索在售商品">
               </div>
-            </div>
+
+            <a id="search-btn" class="button button-fill button-danger">搜索</a>
           </div>
           <nav class="bar bar-tab">
               <a class="tab-item external active" href="index.html">
@@ -42,6 +41,9 @@
               </a>
           </nav>
           <div class="content" style="margin-top:45px;">
+                <div class="search-broad">
+                    <p>共找到<span class="search-result-num">20</span>件商品</p>
+                  </div>
             <div class="goods-list">
               <div class="row">
                 <div class="col-50">
@@ -49,9 +51,10 @@
                       <div class="card-content">
                         <img class="goods-item-img" src="http://lorempixel.com/200/200"></img>
                         <div class="card-content-inner goods-item-name">急救保湿面霜</div>
+                        <div class="card-content-inner goods-item-detail">急救保湿面霜</div>
                         <div class="card-content-inner goods-item-price">
-                          <span style="color:red;font-size:1rem;">￥268</span><span><s>￥399</s></span>
-                          <div class="label-danger">省￥121</div>
+                          <span class="goods-item-price-real">￥268</span><span><span class="goods-item-price-old">￥399</span><small>（国内价）</small></span>
+                          <div class="label-danger">立减￥121</div>
                         </div>
                       </div>
                     </div>
