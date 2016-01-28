@@ -1,23 +1,23 @@
-.bar-tab{
-	height: 2.4rem;
+.content{
+	padding:0rem 0.3rem;
 }
-.tab-item{
-	height: 2.4rem;
-}
-.bar-tab .tab-item .icon{
-	width: 1rem;
-	height: 1rem;
-	top:0.05rem;
+.detail-tab-index{
+	width:0.5% !important;
 }
 .detail-tab-cart{
+	width:0.5% !important;
 }
 .detail-tab-addcart{
-	padding: 0rem 4.5rem;
-    background-color: #ea4a36;
+	width:1.5% !important;
+    background-color: #ea4a34;
     color:#ffffff !important;
     font-size: 0.8rem;
 }
-.detail-tab-index{
+.detail-tab-buy{
+	width:1.5% !important;
+    background-color: #E42810;
+    color:#ffffff !important;
+    font-size: 0.8rem;
 }
 
 .detail-cal{
@@ -30,8 +30,30 @@
 .detail-head{
 	background-color: #ffffff;
 }
+
+.detail-head-logo{
+	height:1rem ;
+	padding: 0rem 0.3rem;
+	margin-bottom: 2rem;
+}
+.detail-head-logo .logo{
+    float:left;
+}
+.detail-head-logo .second-logo{
+    float:right;
+}
+.detail-head-logo .logo img{
+    margin-top: 0.3rem;
+    height: 1.7rem;
+}
+.detail-head-logo .second-logo img{
+    margin-top: 0.2rem;
+    height: 1.8rem;
+}
+.detail-head-logo img{
+}
 .detail-head-img img{
-	width: 100%;
+	width:100%;
 	height: 100%;
 }
 .detail-head-img-plus{
@@ -49,11 +71,16 @@
 .detail-head-price{
 	font-size: 0.7rem;
 	line-height: 2;
-	padding-left: 1rem;
+	padding-left: 0.5rem;
 }
 .detail-head-price-real-c{
 	color: #ea4a36;
-	font-size: 1.3rem;
+	font-size: 1.9rem;
+}
+.detail-head-price-sk{
+	margin-left: 1rem;
+	font-size: 0.45rem;
+	display: inline-block;
 }
 .detail-campaign{
 	background-color: #ffffff;
@@ -71,4 +98,27 @@
 .detail-info img{
 	width: 100%;
 	height:100%;
+}
+.detail-as-img img{
+	width: 100%;
+	height: 100%;
+}
+.detail-as-img{
+	height: 5rem;
+	width: 5rem;
+}
+.detail-as-info{
+	display: inline-block;
+	text-align: left;
+}
+.weui_actionsheet_cell{
+	margin:0rem 1rem;
+}
+#actionsheet_confirm{
+	margin:1rem 0.5rem;
+	background-color:#ea4a34;
+	color: #fff;
+}
+#actionSheet_wrap{
+	z-index: 200;
 }

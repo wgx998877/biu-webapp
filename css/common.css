@@ -13,6 +13,7 @@ body{
 .active{
     color: #f6383a !important;
     border-color: #f6383a !important;
+    z-index: 1 !important;
 }
 .label-danger{    
     background-color: #ea4a36;
