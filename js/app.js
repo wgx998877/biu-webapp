@@ -104,7 +104,14 @@ $(document).on("pageInit", function(e, pageId, $page) {
     
   }
 
-  else if (pageId == 'page-order' || pageId == 'page-order-noadd'){
+  else if (pageId == 'page-order'){
+      //$(".order-list-content-2-other").hide();
+  }
+  else if (pageId == 'page-order-confirm' || 
+    pageId == 'page-order-newadd' || 
+    pageId == 'page-order-noadd'
+    ){
+
     //location.reload();
   }
   else if (pageId == 'page-order-newadd'){

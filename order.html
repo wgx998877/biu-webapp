@@ -16,141 +16,190 @@
 
   <div class="page-group">
     <div id="page-order" class="page">
-      <div class="content">
-        <div class="order-broad">
-          <img src="images/border.png" class="order-broad-bg"/>
 
-          <a class="button button-danger order-broad-edit" >编辑</a>
-          <span class="order-broad-info">
-            <p>收货人：杜明宇</p>
-            <p>电话：+86-18500318382</p>
-            <p>收货地址：仁川机场C3新罗免税自提服务点</p>
-            <div class="order-broad-info-imgs">
-              <img src="images/1.jpg" />
-              <img src="images/2.jpg" />
-              <img src="images/3.jpg" />
-            </div>
-          </span>
-        </div>
-        <div class="list-block">
+          <nav class="bar bar-tab">
+              <a class="tab-item" href="index.html">
+                  <span class="icon icon-home"></span>
+                  <span class="tab-label">首页</span>
+              </a>
+              <a class="tab-item" href="search.html">
+                  <span class="icon icon-app"></span>
+                  <span class="tab-label">查找</span>
+              </a>
+              <a class="tab-item" data-no-cache="true" href="shopcart.html">
+                  <span class="icon-big"></span>
+                  <span class="icon"></span>
+                  <span class="tab-label">购物车</span>
+              </a>
+              <a class="tab-item active" href="order.html">
+                  <span class="icon icon-edit"></span>
+                  <span class="tab-label">订单</span>
+              </a>
+              <a class="tab-item" href="mine.html">
+                  <span class="icon icon-me"></span>
+                  <span class="tab-label">我的</span>
+              </a>
+          </nav>
+      <div class="content">
+        <div class="list-block order-list">
           <ul>
             <li class="item-content order-list-title">
+                <div class="item-title">
+                  共
+                  <span class="order-list-number">1</span>
+                  件商品
+              </div>
+            </li>
+            <li class="item-content order-list-title">
+                <div class="item-title">
+                  订单编号：
+                  <span class="order-list-id">233333</span>
+                </div>
+                <div class="item-after order-list-status">
+                  已完成
+                </div>
+            </li>
+            <li class="item-content order-list-content">
+              <div class="item-media">
+                <img src="images/ph200200.png" class="order-item-img"/>
+              </div>
               <div class="item-inner">
+                <div class="item-title">
+                  <div class="order-item-title">后/The history of whoo振共享阴阳套装</div>
+                  <div class="order-item-type">颜色：999#</div>
+                  <div class="order-item-price">￥655</div>
+                </div>
+                <div class="item-after order-item-num">数量：1</div>
+              </div>
+            </li>
+            <li class="item-content">
+              <div class="item-inner">
+                <div class="item-title">
+                  实付
+                  <span class="order-list-price">￥655</span>
+                </div>
+                <div class="item-after order-list-status">
+                  <a class="button button-fill button-danger">
+                  &nbsp;&nbsp;删除&nbsp;&nbsp;</a>
+
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="list-block order-list">
+          <ul>
+            <li class="item-content order-list-title">
                 <div class="item-title">
                   共
                   <span class="order-list-number">2</span>
                   件商品
                 </div>
-              </div>
             </li>
-            <li class="item-content">
+            <li class="item-content order-list-title">
+                <div class="item-title">
+                  订单编号：
+                  <span class="order-list-id">233333</span>
+                </div>
+                <div class="item-after order-list-status">
+                  未支付
+                </div>
+            </li>
+            <li class="item-content order-list-content">
               <div class="item-media">
                 <img src="images/ph200200.png" class="order-item-img"/>
               </div>
               <div class="item-inner">
                 <div class="item-title">
-                  <div class="order-item-title">后/The history of whoo</div>
-                  <div class="order-item-sectitle">振共享阴阳套装</div>
+                  <div class="order-item-title">后/The history of whoo振共享阴阳套装</div>
+                  <div class="order-item-type">颜色：999#</div>
                   <div class="order-item-price">￥655</div>
                 </div>
                 <div class="item-after order-item-num">数量：1</div>
               </div>
             </li>
-            <li class="item-content">
+            <li class="item-content order-list-content order-list-content-2-other">
               <div class="item-media">
                 <img src="images/ph200200.png" class="order-item-img"/>
               </div>
               <div class="item-inner">
                 <div class="item-title">
-                  <div class="order-item-title">后/The history of whoo</div>
-                  <div class="order-item-sectitle">振共享阴阳套装</div>
-                  <div class="order-item-price">￥655</div>
+                  <div class="order-item-title">后/The history of whoo振共享阴</div>
+                  <div class="order-item-type">颜色：999#</div>
+                  <div class="order-item-price">￥6552</div>
                 </div>
                 <div class="item-after order-item-num">数量：1</div>
+              </div>
+            </li>
+
+            <li class="item-content order-list-more">
+                <span class="center" onclick="$('.order-list-content-2-other').hide();">
+                  还有2件&nbsp;<span class="icon icon-down"></span>
+                </span>
+            </li>
+            <li class="item-content">
+              <div class="item-inner">
+                <div class="item-title">
+                  实付
+                  <span class="order-list-price">￥655</span>
+                </div>
+                <div class="item-after order-list-status">
+                  <a class="button button-fill button-danger">
+                  立即支付</a>
+
+                </div>
               </div>
             </li>
           </ul>
         </div>
-
-        <div class="list-block">
+        <div class="list-block order-list">
           <ul>
-            <!-- Text inputs -->
-            <li>
-              <div class="item-content">
-                <div class="item-inner">
-                  <div class="item-title label">买家留言：</div>
-                  <div class="item-input">
-                    <input type="text" class="order-total-msg" placeholder="选填，填写您的要求或补充"></div>
+            <li class="item-content order-list-title">
+                <div class="item-title">
+                  共
+                  <span class="order-list-number">2</span>
+                  件商品
                 </div>
-              </div>
             </li>
-            <li class="item-content">
+            <li class="item-content order-list-title">
+                <div class="item-title">
+                  订单编号：
+                  <span class="order-list-id">233333</span>
+                </div>
+                <div class="item-after order-list-status">
+                  已取消
+                </div>
+            </li>
+            <li class="item-content order-list-content">
+              <div class="item-media">
+                <img src="images/ph200200.png" class="order-item-img"/>
+              </div>
               <div class="item-inner">
-                <div class="item-title">运费</div>
-                <div class="item-after order-total-number">+ ￥30.00</div>
+                <div class="item-title">
+                  <div class="order-item-title">后/The history of whoo振共享阴阳套装</div>
+                  <div class="order-item-type">颜色：999#</div>
+                  <div class="order-item-price">￥655</div>
+                </div>
+                <div class="item-after order-item-num">数量：1</div>
               </div>
             </li>
             <li class="item-content">
               <div class="item-inner">
                 <div class="item-title">
-                  优惠合计&nbsp&nbsp
-                  <span class="label-danger">满减</span>
+                  实付
+                  <span class="order-list-price">￥655</span>
                 </div>
-                <div class="item-after order-total-number">-￥30.00</div>
-              </div>
-            </li>
-            <li class="item-content">
-              <div class="item-inner">
-                <div class="item-title">商品合计</div>
-                <div class="item-after order-total-number">￥1165.00</div>
+                <div class="item-after order-list-status">
+                  <a class="button button-fill button-danger">
+                  &nbsp;&nbsp;删除&nbsp;&nbsp;</a>
+
+                </div>
               </div>
             </li>
           </ul>
         </div>
-        <div class="list-block order-pay-type">
-        <ul>
-          <li>
-            <label class="label-checkbox item-content">
-              <div class="item-media">
-                <img src="images/ph200200.png" class="order-pay-img"/>
-              </div>
-              <div class="item-inner">
-                <div class="item-title-row">
-                  <div class="item-title">微信支付</div>
-                </div>
-              </div>
-              <input type="radio" name="my-radio">
-              <div class="item-media"> <i class="icon icon-form-checkbox"></i>
-              </div>
-            </label>
-          </li>
-          <li>
-            <label class="label-checkbox item-content">
-              <div class="item-media">
-                <img src="images/ph200200.png" class="order-pay-img"/>
-              </div>
-              <div class="item-inner">
-                <div class="item-title-row">
-                  <div class="item-title">货到付款</div>
-                </div>
-              </div>
-              <input type="radio" name="my-radio">
-              <div class="item-media"> <i class="icon icon-form-checkbox"></i>
-              </div>
-            </label>
-          </li>
-        </ul>
 
-      </div>
-
-      <div class="order-checkout">
-        <span class="order-checkout-number">
-          总计：￥1165
-        </span>
-        <span class="">
-          <a id="order-submit" class="order-checkout-submit">提交</a>
-        </span>
-      </div>
       </div>
     </div>
   </div>

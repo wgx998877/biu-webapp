@@ -1,6 +1,16 @@
 body{
     font-family:"Microsoft YaHei";
 }
+.center{
+    margin: auto;
+    text-align: center;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
 .bar-header{
 	background-color: #ffffff;
 }

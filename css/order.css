@@ -9,7 +9,7 @@
     left:0rem;
     bottom: 0rem;
     width:100%;
-    height: 2rem;
+    height: 2.2rem;
     color:white;
     text-align: center;
 	background-color: #333;
@@ -92,7 +92,7 @@
 }
 .order-broad-edit{
 	position: absolute;
-	top:1rem;
+	margin-top:1rem;
 	right:1em;
 	width:3rem;
 }
@@ -104,12 +104,23 @@
 	width: 3.5rem;
 	height:3.5rem;
 }
+
 .order-list-title{
 	height:1rem;
 	font-size: 0.65rem;
 }
 .order-list-title .item-inner{
 	padding: 0rem;
+}
+.order-list .order-list-content{
+	padding-left: 0.3rem;
+	border-bottom: 1px solid #ccc;
+}
+.order-list .order-list-more{
+	margin: auto;
+	text-align: center;
+	min-height: 2rem;
+	border-bottom: 1px solid #ccc;
 }
 .order-item-img{
 	height:3rem;
@@ -188,4 +199,41 @@ label.label-checkbox input[type=radio]:checked+ i.icon-form-checkbox {
 .order-status-help img{
 	width: 8rem;
 	height: 8rem;
+}
+#page-order .list-block{
+	margin-top:0rem;
+}
+#page-order .order-list-title{
+	min-height: 1.5rem;
+	line-height: 1rem;
+	border-bottom: 1px solid #ccc;
+	padding-left: 0.2rem;
+}
+.order-list ul{
+	padding-right: 0.5rem;
+	padding-left: 0.5rem;
+}
+.order-list .order-list-price{
+	color:#f6383a;
+}
+.order-item-type {
+	margin-bottom: 0.4rem;
+    font-size: 0.4rem;
+    height: 1rem;
+    color: #999;
+}
+.order-list-title .order-list-status{
+	padding-right: 0.3rem;
+	color:#f6383a;
+}
+.order-listadd{
+	line-height: 2rem !important;
+	font-size: 1rem;
+	height: 2.2rem;
+}
+#page-order-listadd .order-broad{
+	margin-bottom: 0.5rem;
+}
+#page-order-listadd .order-broad-edit{
+
 }
