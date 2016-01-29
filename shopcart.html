@@ -22,32 +22,36 @@
         <div class="list-block media-list">
           <ul>
             <li>
-              <div class="item-content">
+              <div class="item-content cart-list">
                 <label class="label-checkbox">
                   <input class="cart-checkbox" type="checkbox" name="checkbox">
                   <div class="item-media"> <i class="icon icon-form-checkbox"></i>
                   </div>
                 </label>
                 <div class="item-media">
-                  <img class="cart-img" src="http://lorempixel.com/100/100"/>
+                  <img class="cart-img" src="images/ph200200.png"/>
                 </div>
                 <div class="item-inner">
-                  <div class="item-title-row">
-                    <div class="item-title">雪花秀滋阴水乳两件套</div>
+                  <div class="item-title-row cart-item-row">
+                    <div class="item-title cart-item-title">雪花秀滋阴水乳两件套</div>
+
+                    <div class="item-after"><a class="cart-item-del button button-fill button-danger">删除</a></div>
+
                   </div>
-                  <div class="item-subtitle">
-                    <span>￥19</span>
-                    <span>
-                      <s>$39</s>
-                    </span>
+
+                  <div class="item-subtitle cart-item-subtitle">
+                    <span>真共享阴阳套装</span>
+                  </div>
+                  <div class="item-text cart-item-type">
+                    <span>颜色:999#</span>
                   </div>
                   <div class="item-media">
-                    <span class="cart-counter"> <i class="icon">-</i>
-                      &nbsp&nbsp
-                      <span class="cart-number">1</span>
-                      &nbsp&nbsp
-                      <i class="icon">+</i>
+                    <span class="cart-counter"> <i class="icon">&nbsp;-&nbsp;</i>
+                      <span class="cart-item-number">&nbsp;&nbsp;<strong>1</strong>&nbsp;&nbsp;</span>
+                      <i class="icon">+&nbsp;</i>
                     </span>
+
+                      &nbsp&nbsp<span class="cart-item-price">￥19</span>
                   </div>
                 </div>
               </div>
@@ -61,7 +65,7 @@
                   </div>
                 </label>
                 <div class="item-media">
-                  <img class="cart-img" src="http://lorempixel.com/100/100"/>
+                  <img class="cart-img" src="images/ph200200.png"/>
                 </div>
                 <div class="item-inner">
                   <div class="item-title-row">
@@ -95,7 +99,7 @@
                   </div>
                 </label>
                 <div class="item-media">
-                  <img class="cart-img" src="http://lorempixel.com/100/100"/>
+                  <img class="cart-img" src="images/ph200200.png"/>
                 </div>
                 <div class="item-inner">
                   <div class="item-title-row">
@@ -121,25 +125,25 @@
             </li>
           </ul>
         </div>
-        <div class="cart-cal">
-          <div class="row">
-            <div class="col-33">
-              <label class="label-checkbox">
-                <input class="cart-checkbox" type="checkbox" name="checkbox">
-                <div class="item-media">
-                  <i class="icon icon-form-checkbox"></i>
-                  全选
-                </div>
-              </label>
-            </div>
-            <div class="col-33">
-              <span>总计:$1333</span>
-            </div>
-            <div class="col-33">
-              <a class="button button-fill button-danger" style="height:1.6rem;">结算(3)</a>
-            </div>
-          </div>
-        </div>
+      <div class="cart-checkout">
+
+        <!--span class="cart-checkout-box">
+                <i class="icon icon-check"></i>
+          </span-->
+          <label class="label-checkbox cart-checkout-box">
+                  <input class="cart-checkbox" type="checkbox" name="checkbox" checked="checked">
+                  <div class="item-media">
+                    <i class="icon icon-form-checkbox"></i>
+                  </div>
+                </label>
+        <span class="cart-checkout-number">
+          <p class="cart-checkout-number-total">总计：￥1165</p>
+          <p class="cart-checkout-number-save">立省：￥88</p>
+        </span>
+        <span class="" style="display:block">
+          <a id="cart-submit" class="cart-checkout-submit">结算</a>
+        </span>
+      </div>
       </div>
     </div>
   </div>

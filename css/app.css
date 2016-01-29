@@ -70,13 +70,90 @@
     height: 100%;
 }
 
+.cart-checkout{
+    position: fixed;
+    left:0rem;
+    bottom: 0rem;
+    width:100%;
+    height: 2.2rem;
+    color:white;
+    text-align: center;
+    background-color: #333;
+    z-index: 200;
+    line-height: 1.7rem;
+}
+.cart-checkout-box{
+    left: 1rem;
+    position: absolute;
+}
+.cart-checkout-number{
+    top:0.2rem;
+    right:6.5rem;
+    font-size: 0.4rem;
+    position: absolute;
+    background-color: #333;
+    text-align: right;
+}
+.cart-checkout-number p{
+    line-height: 1.2;
+    margin:0rem;
+}
+.cart-checkout-number-total{
+    font-size: 0.8rem;
+}
+
+.cart-checkout-number-save{
+    color:#f6383a;
+}
+.cart-checkout-submit{
+    background-color: #f6383a;
+    float:right;
+    width: 6rem;
+    height: 2.2rem;
+    color: #fff;
+}
+
+.cart-list{
+    font-size: 0.6rem;
+}
+.cart-list .cart-item-row{
+    height: 1rem;
+}
+.cart-list .cart-item-title{
+}
+.cart-list .cart-item-subtitle{
+    font-size: 0.5rem;
+}
+.cart-list .cart-item-type{
+    font-size: 0.4rem;
+    height: 1rem;
+    color:#999;
+}
 .cart-img{
+    width:5rem;
+    height: 4rem;
     margin-left:0.5rem;
+    border:1px solid #eee;
 }
 .cart-counter{
-    border:1px solid #efeffe;
+    height:1.3rem;
+    height:1.3rem;
+    font-size: 0.8rem;
+    border:1.5px solid #777;
 }
-.cart-counter .cart-number{
+.cart-counter .cart-item-number{
+    border-spacing: 1px;
+    border-left:1px solid #777;
+    border-right:1px solid #777;
+}
+.cart-list .cart-item-del{
+    margin-top: 0.4rem;
+    height:4rem;
+    line-height: 4rem;
+}
+.cart-list .cart-item-price{
+    color:#f6383a;
+    font-size: 0.8rem;
 }
 .cart-checkbox{
     width: 1.1rem;
@@ -91,22 +168,20 @@
 }
 
 .item-broad{
-    background-color: white;
+    background-color: #fff;
     font-size: 0.6rem;
-    color: rgb(255, 0, 116);
-    padding:0.4rem 1rem;
+    color: #f6383a;
+    padding:0.7rem 1rem;
+    text-align: center;
 }
 .item-broad p{
-
     margin:0px;
 }
-.cart-cal{
-    position: absolute;
-    bottom: 0rem;
-    width:100%;
-    color:white;
-    background-color: rgba(128, 128, 128, 0.85);
+#page-cart .list-block{
+    margin-top: 0.05rem;
 }
+
+
 .mine-title{
     height:3.5rem;
     background-color: #f6383a; 
