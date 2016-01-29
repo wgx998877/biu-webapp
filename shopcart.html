@@ -1,146 +1,153 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link href="css/weui.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link href="css/weui.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.1/css/sm.min.css">
-    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.1/css/sm-extend.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/css/swiper.min.css">
-    <link href="css/common.css" rel="stylesheet">
-    <link href="css/app.css" rel="stylesheet">
-</head>
+  <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.1/css/sm.min.css">
+  <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.1/css/sm-extend.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/css/swiper.min.css">
+  <link href="css/common.css" rel="stylesheet">
+  <link href="css/app.css" rel="stylesheet"></head>
 <body>
   <div class="page-group">
-      <!-- 你的html代码 -->
-      <div id="page-cart" class="page">
+    <div id="page-cart" class="page">
 
-          <!--nav class="bar bar-tab">
-              <a class="tab-item" href="index.html">
-                  <span class="icon icon-home"></span>
-                  <span class="tab-label">商城首页</span>
-              </a>
-              <a class="tab-item" href="search.html">
-                  <span class="icon icon-app"></span>
-                  <span class="tab-label">商品搜索</span>
-              </a>
-              <a class="tab-item" href="shopcart.html">
-                  <span class="icon-big"></span>
-                  <span class="icon"></span>
-                  <span class="tab-label">我的购物车</span>
-              </a>
-              <a class="tab-item" href="order.html">
-                  <span class="icon icon-edit"></span>
-                  <span class="tab-label">订单详情</span>
-              </a>
-              <a class="tab-item" href="mine.html">
-                  <span class="icon icon-me"></span>
-                  <span class="tab-label">个人中心</span>
-              </a>
-          </nav-->
-          <div class="content">
-                <div class="item-broad">
-                    <p>首尔当地全场购物满99返运费。</p>
+      <div class="content">
+        <div class="item-broad">
+          <p>首尔当地全场购物满99返运费。</p>
+        </div>
+        <div class="list-block media-list">
+          <ul>
+            <li>
+              <div class="item-content">
+                <label class="label-checkbox">
+                  <input class="cart-checkbox" type="checkbox" name="checkbox">
+                  <div class="item-media"> <i class="icon icon-form-checkbox"></i>
                   </div>
-            <div class="list-block media-list">
-              <ul>
-                <li>
-                  <div class="item-content">
-                    <label class="label-checkbox">
-                      <input class="cart-checkbox" type="checkbox" name="checkbox">
-                      <div class="item-media"><i class="icon icon-form-checkbox"></i></div>
-                    </label>
-                    <div class="item-media"><img class="cart-img" src="http://lorempixel.com/100/100"/></div>
-                    <div class="item-inner">
-                      <div class="item-title-row">
-                        <div class="item-title">雪花秀滋阴水乳两件套</div>
-                      </div>
-                      <div class="item-subtitle"><span>￥19</span>  <span><s>$39</s></span></div>
-                      <div class="item-media">
-                        <span class="cart-counter">
-                          <i class="icon">-</i>&nbsp&nbsp
-                          <span class="cart-number">1</span>&nbsp&nbsp
-                          <i class="icon">+</i>
-                        </span>
-                      </div>
-                    </div>
+                </label>
+                <div class="item-media">
+                  <img class="cart-img" src="http://lorempixel.com/100/100"/>
+                </div>
+                <div class="item-inner">
+                  <div class="item-title-row">
+                    <div class="item-title">雪花秀滋阴水乳两件套</div>
                   </div>
-                </li>
-                <li>
-                  <div class="item-content">
-                    <label class="label-checkbox">
-                      <input class="cart-checkbox" type="checkbox" name="checkbox">
-                      <div class="item-media"><i class="icon icon-form-checkbox"></i></div>
-                    </label>
-                    <div class="item-media"><img class="cart-img" src="http://lorempixel.com/100/100"/></div>
-                    <div class="item-inner">
-                      <div class="item-title-row">
-                        <div class="item-title">雪花秀滋阴水乳两件套</div>
-                      </div>
-                      <div class="item-subtitle"><span>￥19</span>  <span><s>$39</s></span></div>
-                      <div class="item-media">
-                        <span class="cart-counter">
-                          <i class="icon">-</i>&nbsp&nbsp
-                          <span class="cart-number">1</span>&nbsp&nbsp
-                          <i class="icon">+</i>
-                        </span>
-                      </div>
-                    </div>
+                  <div class="item-subtitle">
+                    <span>￥19</span>
+                    <span>
+                      <s>$39</s>
+                    </span>
                   </div>
-                </li>
-                <li>
+                  <div class="item-media">
+                    <span class="cart-counter"> <i class="icon">-</i>
+                      &nbsp&nbsp
+                      <span class="cart-number">1</span>
+                      &nbsp&nbsp
+                      <i class="icon">+</i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="item-content">
+                <label class="label-checkbox">
+                  <input class="cart-checkbox" type="checkbox" name="checkbox">
+                  <div class="item-media">
+                    <i class="icon icon-form-checkbox"></i>
+                  </div>
+                </label>
+                <div class="item-media">
+                  <img class="cart-img" src="http://lorempixel.com/100/100"/>
+                </div>
+                <div class="item-inner">
+                  <div class="item-title-row">
+                    <div class="item-title">雪花秀滋阴水乳两件套</div>
+                  </div>
+                  <div class="item-subtitle">
+                    <span>￥19</span>
+                    <span>
+                      <s>$39</s>
+                    </span>
+                  </div>
+                  <div class="item-media">
+                    <span class="cart-counter">
+                      <i class="icon">-</i>
+                      &nbsp&nbsp
+                      <span class="cart-number">1</span>
+                      &nbsp&nbsp
+                      <i class="icon">+</i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
 
-                  <div class="item-content">
-                    <label class="label-checkbox">
-                      <input class="cart-checkbox" type="checkbox" name="checkbox">
-                      <div class="item-media"><i class="icon icon-form-checkbox"></i></div>
-                    </label>
-                    <div class="item-media"><img class="cart-img" src="http://lorempixel.com/100/100"/></div>
-                    <div class="item-inner">
-                      <div class="item-title-row">
-                        <div class="item-title">雪花秀滋阴水乳两件套</div>
-                      </div>
-                      <div class="item-subtitle"><span>￥19</span>  <span><s>$39</s></span></div>
-                      <div class="item-media">
-                        <span class="cart-counter">
-                          <i class="icon">-</i>&nbsp&nbsp
-                          <span class="cart-number">1</span>&nbsp&nbsp
-                          <i class="icon">+</i>
-                        </span>
-                      </div>
-                    </div>
+              <div class="item-content">
+                <label class="label-checkbox">
+                  <input class="cart-checkbox" type="checkbox" name="checkbox">
+                  <div class="item-media">
+                    <i class="icon icon-form-checkbox"></i>
                   </div>
-                </li>
-              </ul>
+                </label>
+                <div class="item-media">
+                  <img class="cart-img" src="http://lorempixel.com/100/100"/>
+                </div>
+                <div class="item-inner">
+                  <div class="item-title-row">
+                    <div class="item-title">雪花秀滋阴水乳两件套</div>
+                  </div>
+                  <div class="item-subtitle">
+                    <span>￥19</span>
+                    <span>
+                      <s>$39</s>
+                    </span>
+                  </div>
+                  <div class="item-media">
+                    <span class="cart-counter">
+                      <i class="icon">-</i>
+                      &nbsp&nbsp
+                      <span class="cart-number">1</span>
+                      &nbsp&nbsp
+                      <i class="icon">+</i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="cart-cal">
+          <div class="row">
+            <div class="col-33">
+              <label class="label-checkbox">
+                <input class="cart-checkbox" type="checkbox" name="checkbox">
+                <div class="item-media">
+                  <i class="icon icon-form-checkbox"></i>
+                  全选
+                </div>
+              </label>
             </div>
-            <div class="cart-cal">
-                <div class="row">
-                  <div class="col-33"> 
-                    <label class="label-checkbox">
-                      <input class="cart-checkbox" type="checkbox" name="checkbox">
-                      <div class="item-media"><i class="icon icon-form-checkbox"></i>全选</div>
-                    </label>
-          </div>
-                  <div class="col-33">
-                <span>
-                  总计:$1333
-                </span>
-          </div>
-                  <div class="col-33">
-                <a class="button button-fill button-danger" style="height:1.6rem;">结算(3)
-                </a>
-          </div>
+            <div class="col-33">
+              <span>总计:$1333</span>
+            </div>
+            <div class="col-33">
+              <a class="button button-fill button-danger" style="height:1.6rem;">结算(3)</a>
             </div>
           </div>
+        </div>
       </div>
+    </div>
   </div>
   <script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
   <script src="js/config.js" charset='utf-8'></script>
   <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.1/js/sm.js' charset='utf-8'></script>
   <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.1/js/sm-extend.js' charset='utf-8'></script>
-  <script src="js/cart.js" charset='utf-8'></script>
+  <script src="js/app.js" charset='utf-8'></script>
 
 </body>
 </html>

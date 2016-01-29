@@ -1,0 +1,191 @@
+
+.list-block{
+	margin-top:0.5rem ;
+	margin-bottom:0.5rem ;
+	font-size:0.65rem;
+}
+.order-checkout{
+    position: fixed;
+    left:0rem;
+    bottom: 0rem;
+    width:100%;
+    height: 2rem;
+    color:white;
+    text-align: center;
+	background-color: #333;
+	z-index: 200;
+	line-height: 1.7rem;
+}
+.order-checkout-number{
+	background-color: #333;
+    height: 2rem;
+}
+.order-checkout-submit{
+	background-color: #f6383a;
+	float:right;
+	width: 6rem;
+    height: 2rem;
+    color: #fff;
+}
+.order-broad{
+	background-color: #fff;
+    font-size: 0.6rem;
+    width:100%;
+    height: 9.7rem;
+}
+.order-broad-small{
+	background-color: #fff;
+    font-size: 0.6rem;
+    width:100%;
+    height: 3.65rem;
+    margin-bottom: 0.5rem;
+}
+.order-broad-small .order-broad-info{
+	padding-top: 1.2rem;
+	padding-right: 1rem;
+	padding-left:0.6rem;
+	text-align: left;
+	font-size: 0.75rem;
+}
+.order-broad-small .order-status-broad-info{
+	padding-top: 0.6rem;
+	padding-right: 1rem;
+	padding-left:0.6rem;
+	text-align: left;
+	font-size: 0.65rem;
+	line-height: 1.8;
+}
+.order-broad-small .order-status-broad-info .icon{
+	line-height: 1;
+	font-size: 1.5rem;
+	border-radius: 1rem;
+	border-spacing: 2rem;
+	border: 1px solid #f6383a;
+}
+.order-broad-small .order-status-broad-info .row{
+	text-align: center;
+	font-size:0.5rem;
+	color:#f6383a;
+}
+.order-broad-small .order-broad-bg{
+	position: absolute;
+	z-index: 1;
+	width:100%;
+    height: 3.65rem;
+    margin:0px;
+}
+.order-broad .order-broad-bg{
+	position: absolute;
+	z-index: 1;
+	width:100%;
+	height:9.7rem;
+    margin:0px;
+}
+.order-broad .order-broad-info{
+	margin:0rem;
+	padding-top: 0rem;
+	padding-left: 0.5rem;
+}
+.order-broad .order-broad-info p{
+	margin:0rem 0.5rem 0.5rem 1rem;
+	font-weight: bold;
+}
+.order-broad-edit{
+	position: absolute;
+	top:1rem;
+	right:1em;
+	width:3rem;
+}
+.order-broad-info-imgs{
+	padding-left:1rem;
+}
+.order-broad-info-imgs img{
+	margin-right: 0.5rem;
+	width: 3.5rem;
+	height:3.5rem;
+}
+.order-list-title{
+	height:1rem;
+	font-size: 0.65rem;
+}
+.order-list-title .item-inner{
+	padding: 0rem;
+}
+.order-item-img{
+	height:3rem;
+	width: 3rem;
+}
+.order-item-title{
+	font-size: 0.6rem;
+}
+.order-item-sectitle{
+	font-size: 0.6rem;
+	margin-bottom: 1rem;
+}
+.order-item-price{
+	color:#f6383a;
+}
+.order-item-num{
+	font-size:0.7rem;
+	margin-top: 2rem;
+}
+.order-total-msg{
+	font-size:0.65rem !important;
+	text-align: left;
+}
+.order-pay-img{
+	width:1.5rem;
+	height: 1.5rem;
+}
+.order-pay-type .icon-form-checkbox{
+	margin-right: 1rem;
+}
+.order-pay-type{
+	margin-bottom: 2.6rem;
+}
+.order-newadd-info input{
+	font-size: 0.6rem !important;
+}
+
+.order-newadd-tips{
+	color:#f6383a;
+	font-size: 0.4rem;
+	padding-left: 1rem;
+}
+.order-newadd-airport{
+	padding-left: 2rem;
+	font-size: 0.5rem;
+}
+.order-newadd-airport i.icon-form-checkbox{
+	width:0.8rem !important;
+	height: 0.8rem !important;
+	margin-right: 0.3rem;
+}
+.order-newadd-info{
+	margin-top: 0rem;	
+}
+label.label-checkbox input[type=radio]:checked+ i.icon-form-checkbox {
+    border: none;
+    background-color: #0894ec;
+    color:#fff;
+}
+.order-newadd-aim{
+	padding-left: 2.5rem;
+	color:#777;
+	line-height: 0.5;
+}
+.order-newadd-enteraddr{
+	text-align: center;
+}
+.order-status-help{
+	margin:0.5rem 1rem;
+	margin-bottom: 2rem;
+}
+.order-status-help ol{
+	padding-left: 0rem;
+	font-size: 5px;
+}
+.order-status-help img{
+	width: 8rem;
+	height: 8rem;
+}

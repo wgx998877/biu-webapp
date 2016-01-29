@@ -66,6 +66,9 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
+.list-block input[type=text]{
+    font-size: 0.65rem;
+}
 a:active { 
 color:#ea4a36 !important; 
 text-decoration:none; 
